@@ -106,7 +106,7 @@ class Login extends Component {
           <button type="submit" className="login-button">
             Login
           </button>
-          {showErrorMessage && <p className="error-message">*$*{errorMsg} </p>}
+          {showErrorMessage && <p className="error-message">*{errorMsg} </p>}
         </form>
       </div>
     )
